@@ -70,33 +70,44 @@ echo "GOOGLE_API_KEY='sua-chave-aqui'" >> .env
 Contribuições são bem-vindas! Sinta-se à vontade para abrir issues ou enviar pull requests com melhorias.
 
 ---
-##🌟 Destaques da Plataforma
-<div align="center"> <img src="https://media.giphy.com/media/JtBZm3Getg3dqxK0zP/giphy.gif" width="600"> </div>
+
+
 ---
 
-##📊 Impacto Esperado
+## 🌟 Destaques da Plataforma
 
-Área	Antes	Depois
-Tempo de Resposta	15 dias	48h
-Participação Cidadã	12%	65%
-Acesso a Serviços	Presencial	80% Digital
-Visibilidade Comercial	Local	Regional
+<div align="center">
+  <img src="https://media.giphy.com/media/JtBZm3Getg3dqxK0zP/giphy.gif" width="600">
+</div>
+
 ---
 
-##🤝 Como Contribuir
+## 📊 Impacto Esperado
 
-🍴 Faça um Fork do projeto
+| Área                   | Antes         | Depois         |
+|------------------------|---------------|----------------|
+| **Tempo de Resposta**  | 15 dias       | 48h            |
+| **Participação Cidadã**| 12%           | 65%            |
+| **Acesso a Serviços**  | Presencial    | 80% Digital    |
+| **Visibilidade Comercial** | Local    | Regional       |
 
-🌿 Crie uma Branch (git checkout -b feature/nova-funcionalidade)
+---
 
-💾 Commit suas mudanças (git commit -m 'Adiciona incrível feature')
+## 🤝 Como Contribuir
 
-🚀 Push para a Branch (git push origin feature/nova-funcionalidade)
-
-🔄 Abra um Pull Reques
+1. 🍴 **Faça um Fork** do projeto  
+2. 🌿 **Crie uma Branch**:  
+   ```bash
+   git checkout -b feature/nova-funcionalidade
+3. 💾 Commit suas mudanças:
+git commit -m 'Adiciona nova funcionalidade'
+4.🚀 Push para a Branch:
+git push origin feature/nova-funcionalidade
+5. 🔄 Abra um Pull Request no GitHub
 ---
 
 ##📬 Contato
 (https://www.linkedin.com/in/lilian-retori/)
 
 <div align="center"> ✨ Feito com ❤️ para cidades mais inteligentes e cidadãos mais conectados ✨ </div> ```
+
