@@ -69,8 +69,6 @@ pip install -r requirements.txt
 echo "GOOGLE_API_KEY='sua-chave-aqui'" >> .env
 Contribuições são bem-vindas! Sinta-se à vontade para abrir issues ou enviar pull requests com melhorias.
 
----
-
 
 ---
 
