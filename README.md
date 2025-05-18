@@ -36,6 +36,14 @@ Uma plataforma inteligente que utiliza **quatro agentes de IA especializados** p
 
 ---
 
+## 🌐 Como Acessar
+
+A aplicação está disponível através do seguinte link:
+
+🚀 Acessar Plataforma Cidadã Integrada: https://altwbrgg.manus.space
+
+---
+
 ## 📌 Funcionalidades Principais
 
 - ✅ Centralização de informações municipais em tempo real
@@ -123,8 +131,8 @@ Quer ajudar a transformar cidades? Siga os passos abaixo:
 
 ## 📬 Contato
 
-Entre em contato para colaborações ou dúvidas:\
-📧 LinkedIn: Lilian Retori\
+<img src="https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png" width="20" height="20" alt="LinkedIn Logo"/> LinkedIn: https://www.linkedin.com/in/lilian-retori/
+
 📩 Abrir uma Issue
 
 ---
