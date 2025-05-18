@@ -1,40 +1,31 @@
 # 🏙️ Plataforma Cidadã Integrada para Municípios Pequenos
 
-<div align="center">
-  <img src="https://img.shields.io/badge/Plataforma-Cidad%C3%A3-brightgreen?style=for-the-badge">
-  <img src="https://img.shields.io/badge/Status-Em%20Desenvolvimento-yellow?style=for-the-badge">
-  <img src="https://img.shields.io/badge/Licen%C3%A7a-MIT-blue?style=for-the-badge">
-</div>
-
-<br>
-
-🌐 **Conectando cidadãos e gestão pública através de IA avançada**  
-✨ **Solução modular para municípios com menos de 20 mil habitantes**
+🌐 **Conectando cidadãos e gestão pública com IA avançada**\
+✨ **Solução modular para municípios com até 20 mil habitantes**
 
 ---
 
 ## 🚀 Visão Geral
 
+Uma plataforma inteligente que utiliza **quatro agentes de IA especializados** para modernizar a gestão municipal, promover participação cidadã e impulsionar o desenvolvimento local em pequenos municípios.
 <div align="center">
   <img src="https://media.giphy.com/media/ideOXim9WoYZRhyoHv/giphy.gif" width="600" alt="Cidade Inteligente Siemens - Gestão de Dados em Tempo Real">
 </div>
-
-Uma plataforma inteligente que combina **4 agentes especializados em IA** para modernizar a gestão municipal, impulsionar a participação social e fomentar o desenvolvimento local.
 
 ---
 
 ## 🤖 Arquitetura de Agentes IA
 
-| Agente | Ícone | Funcionalidade Principal |
-|--------|-------|--------------------------|
-| **🔍 Informador Municipal Dinâmico** | 📢 | Centraliza informações críticas e atualizações em tempo real |
-| **👥 Facilitador de Participação** | 🗳️ | Cria canais interativos para engajamento cidadão |
-| **💼 Promotor de Desenvolvimento** | 📈 | Impulsiona negócios locais e oportunidades econômicas |
-| **📝 Descomplicador de Processos** | ⚡ | Simplifica acesso a serviços públicos complexos |
+| Agente | Ícone | Função Principal |
+| --- | --- | --- |
+| **🔍 Informador Municipal** | 📢 | Centraliza informações e atualizações em tempo real |
+| **👥 Facilitador de Participação** | 🗳️ | Promove canais interativos para engajamento cidadão |
+| **💼 Promotor de Desenvolvimento** | 📈 | Fomenta negócios locais e oportunidades econômicas |
+| **📝 Descomplicador de Processos** | ⚡ | Simplifica acesso a serviços públicos |
 
 ---
 
-## 🛠️ Tecnologias Principais
+## 🛠️ Tecnologias Utilizadas
 
 <div align="center">
   <img src="https://img.shields.io/badge/Google_Gemini-4285F4?style=flat&logo=google&logoColor=white" height="30">
@@ -45,67 +36,97 @@ Uma plataforma inteligente que combina **4 agentes especializados em IA** para m
 
 ---
 
-## 📌 Recursos-Chave
+## 📌 Funcionalidades Principais
 
-- ✅ **Centralização de informações municipais**  
-- ✅ **Sistema de reporte de problemas urbanos**  
-- ✅ **Marketplace digital para produtores locais**  
-- ✅ **Assistente virtual para processos burocráticos**  
-- ✅ **Painel de análise de dados em tempo real**
+- ✅ Centralização de informações municipais em tempo real
+- ✅ Sistema de reporte de problemas urbanos com acompanhamento
+- ✅ Marketplace digital para produtores e comerciantes locais
+- ✅ Assistente virtual para desburocratização de serviços públicos
+- ✅ Painel analítico com dados para tomada de decisão
 
 ---
 
-## ⚡ Instalação Rápida
+## ⚡ Como Instalar
+
+Siga os passos abaixo para configurar a plataforma localmente:
 
 ```bash
-# 1. Clonar repositório
+# 1. Clone o repositório
 git clone https://github.com/seu-usuario/plataforma-cidada.git
 cd plataforma-cidada
 
-# 2. Instalar dependências
+# 2. Crie um ambiente virtual
+python -m venv venv
+source venv/bin/activate  # Linux/Mac
+venv\Scripts\activate     # Windows
+
+# 3. Instale as dependências
 pip install -r requirements.txt
 
-# 3. Configurar ambiente
-echo "GOOGLE_API_KEY='sua-chave-aqui'" >> .env
-Contribuições são bem-vindas! Sinta-se à vontade para abrir issues ou enviar pull requests com melhorias.
+# 4. Configure as variáveis de ambiente
+echo "GOOGLE_API_KEY='sua-chave-aqui'" > .env
+echo "FLASK_ENV=development" >> .env
 
+# 5. Inicie a aplicação
+python app.py
+```
+
+**Nota**: Certifique-se de ter o Python 3.8+ instalado e obtenha uma chave válida da API do Google Gemini em Google Cloud Console.
 
 ---
 
-## 🌟 Destaques da Plataforma
+## 🌟 Benefícios da Plataforma
 
-<div align="center">
-  <img src="https://media.giphy.com/media/JtBZm3Getg3dqxK0zP/giphy.gif" width="600">
-</div>
+- **Eficiência**: Reduz o tempo de resposta a demandas cidadãs.
+- **Engajamento**: Aumenta a participação popular em decisões municipais.
+- **Acessibilidade**: Digitaliza o acesso a serviços públicos.
+- **Economia Local**: Amplia a visibilidade de negócios regionais.
 
 ---
 
 ## 📊 Impacto Esperado
 
-| Área                   | Antes         | Depois         |
-|------------------------|---------------|----------------|
-| **Tempo de Resposta**  | 15 dias       | 48h            |
-| **Participação Cidadã**| 12%           | 65%            |
-| **Acesso a Serviços**  | Presencial    | 80% Digital    |
-| **Visibilidade Comercial** | Local    | Regional       |
+| Métrica | Antes | Depois |
+| --- | --- | --- |
+| **Tempo de Resposta** | 15 dias | 48 horas |
+| **Participação Cidadã** | 12% | 65% |
+| **Acesso a Serviços** | Presencial | 80% Digital |
+| **Visibilidade Comercial** | Local | Regional |
 
 ---
 
 ## 🤝 Como Contribuir
 
-1. 🍴 **Faça um Fork** do projeto  
-2. 🌿 **Crie uma Branch**:  
+Quer ajudar a transformar cidades? Siga os passos abaixo:
+
+1. 🍴 Faça um **fork** do projeto
+2. 🌿 Crie uma branch para sua feature:
+
    ```bash
    git checkout -b feature/nova-funcionalidade
-3. 💾 Commit suas mudanças:
-git commit -m 'Adiciona nova funcionalidade'
-4.🚀 Push para a Branch:
-git push origin feature/nova-funcionalidade
-5. 🔄 Abra um Pull Request no GitHub
+   ```
+3. 💾 Commit suas alterações:
+
+   ```bash
+   git commit -m "Adiciona nova funcionalidade"
+   ```
+4. 🚀 Envie para o repositório remoto:
+
+   ```bash
+   git push origin feature/nova-funcionalidade
+   ```
+5. 🔄 Abra um **Pull Request** no GitHub
+
+📢 **Dicas**: Leia o guia de contribuição e reporte issues para sugerir melhorias!
+
 ---
 
-##📬 Contato
-(https://www.linkedin.com/in/lilian-retori/)
+## 📬 Contato
 
-<div align="center"> ✨ Feito com ❤️ para cidades mais inteligentes e cidadãos mais conectados ✨ </div> ```
+Entre em contato para colaborações ou dúvidas:\
+📧 LinkedIn: Lilian Retori\
+📩 Abrir uma Issue
 
+---
+
+ ✨ \*\*Feito com ❤️ para cidades mais inteligentes e cidadãos mais conectados\*\* ✨
